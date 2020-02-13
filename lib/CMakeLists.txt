@@ -67,7 +67,7 @@ if(USE_ARES)
 endif()
 
 add_library(
-  ${LIB_NAME}
+  ${LIB_NAME} STATIC
   ${HHEADERS} ${CSOURCES}
   )
 
